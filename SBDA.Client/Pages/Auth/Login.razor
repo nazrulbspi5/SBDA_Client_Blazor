@@ -1,0 +1,32 @@
+﻿@page "/"
+@layout AuthLayout
+<EditForm Model="LoginModel" OnValidSubmit="HandleValidRegister">
+    <DataAnnotationsValidator />
+    <AlertMessage Message="@Message" MessageType="@messageType"></AlertMessage>
+   
+    <div class="form-group row">
+        <label for="Email" class="col-md-4 col-form-label">
+            Email
+        </label>
+        <div class="col-md-8">
+            <InputText id="Email" class="form-control" @bind-Value="LoginModel.Email" placeholder="Email" />
+            <ValidationMessage For="@(()=>LoginModel.Email)" />
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="Email" class="col-md-4 col-form-label">
+            Password
+        </label>
+        <div class="col-md-8">
+            <InputText id="Password" class="form-control" @bind-Value="LoginModel.Password" placeholder="Password" />
+            <ValidationMessage For="@(()=>LoginModel.Password)" />
+        </div>
+    </div>
+    
+    <div class="form-group row">
+        <div class="offset-4 col-sm-8">
+            <button type="submit" class="btn btn-primary">Login</button>
+            <p>Do not have account? <a href="/register">Sign Up</a></p>
+        </div>
+    </div>
+</EditForm>

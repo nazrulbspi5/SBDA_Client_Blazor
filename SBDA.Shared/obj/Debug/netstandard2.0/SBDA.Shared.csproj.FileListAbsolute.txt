@@ -1,0 +1,9 @@
+F:\Web Project\Blazor\SBDAWebProject\SBDA.Shared\bin\Debug\netstandard2.0\SBDA.Shared.deps.json
+F:\Web Project\Blazor\SBDAWebProject\SBDA.Shared\bin\Debug\netstandard2.0\SBDA.Shared.dll
+F:\Web Project\Blazor\SBDAWebProject\SBDA.Shared\bin\Debug\netstandard2.0\SBDA.Shared.pdb
+F:\Web Project\Blazor\SBDAWebProject\SBDA.Shared\obj\Debug\netstandard2.0\SBDA.Shared.csprojAssemblyReference.cache
+F:\Web Project\Blazor\SBDAWebProject\SBDA.Shared\obj\Debug\netstandard2.0\SBDA.Shared.AssemblyInfoInputs.cache
+F:\Web Project\Blazor\SBDAWebProject\SBDA.Shared\obj\Debug\netstandard2.0\SBDA.Shared.AssemblyInfo.cs
+F:\Web Project\Blazor\SBDAWebProject\SBDA.Shared\obj\Debug\netstandard2.0\SBDA.Shared.csproj.CoreCompileInputs.cache
+F:\Web Project\Blazor\SBDAWebProject\SBDA.Shared\obj\Debug\netstandard2.0\SBDA.Shared.dll
+F:\Web Project\Blazor\SBDAWebProject\SBDA.Shared\obj\Debug\netstandard2.0\SBDA.Shared.pdb

@@ -1,0 +1,50 @@
+﻿@page "/register"
+@layout AuthLayout
+
+<EditForm Model="Register" OnValidSubmit="HandleValidRegister">
+    <DataAnnotationsValidator />
+    <AlertMessage Message="@Message" MessageType="@messageType"></AlertMessage>
+    <div class="form-group row">
+        <label for="Name" class="col-md-4 col-form-label">
+            Name
+        </label>
+        <div class="col-md-8">
+            <InputText id="Name" class="form-control" @bind-Value="Register.Name" placeholder="Name" />
+            <ValidationMessage For="@(()=>Register.Name)" />
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="Email" class="col-md-4 col-form-label">
+            Email
+        </label>
+        <div class="col-md-8">
+            <InputText id="Email" class="form-control" @bind-Value="Register.Email" placeholder="Email" />
+            <ValidationMessage For="@(()=>Register.Email)" />
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="Email" class="col-md-4 col-form-label">
+            Password
+        </label>
+        <div class="col-md-8">
+            <InputText id="Password" class="form-control" @bind-Value="Register.Password" placeholder="Password" />
+            <ValidationMessage For="@(()=>Register.Password)" />
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="Email" class="col-md-4 col-form-label">
+            Confirm Password
+        </label>
+        <div class="col-md-8">
+            <InputText id="Confirm Password" class="form-control" @bind-Value="Register.ConfirmPassword" placeholder="Confirm Password" />
+            <ValidationMessage For="@(()=>Register.ConfirmPassword)" />
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="offset-4 col-sm-8">
+            <button type="submit" class="btn btn-primary">Sign Up</button>
+            <p>Have alrady account?<a href="/">Login</a></p>        
+        </div>
+    </div>
+</EditForm>
+
